@@ -31,15 +31,14 @@ Reusable code components to simplify access to Google Cloud services.
 pip Installation is from the git repo. 
 
 Manual install as
-
 ```
-pip install git+https://{token}@gitprovider.com/user/project.git@{version}
+pip install git+https://github.com/gschaeffer/goog-pack.git@main
 ```
 
-Or from requirements file as
-
+Or from withing a requirements.txt file as
 ```
-goog-bunder @ git+https://{token}@gitprovider.com/user/project.git@{version}
+googpack @ git+https://{token}@gitprovider.com/user/project.git@{version}
+e.g. - googpack @ git+https://github.com/gschaeffer/goog-pack.git@main
 ```
 
 Reference
