@@ -1,9 +1,11 @@
-import setuptools
+from setuptools import setup
+
+# https://python-packaging.readthedocs.io/en/latest/index.html
 
 with open("README.md", "r") as f:
     description = f.read()
 
-setuptools.setup(
+setup(
     author="G Schaeffer",
     author_email="gschaeffer@gmail.com",
     description="Simplified access to Google cloud services",
